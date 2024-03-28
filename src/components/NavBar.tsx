@@ -44,8 +44,8 @@ export function NavBar() {
         {/* <Link onClick={handleClick} className="text-3xl" href="/howitworks">
           How it Works
         </Link> */}
-        <Link onClick={handleClick} className="text-3xl" href="/contracting">
-          Contracting
+        <Link onClick={handleClick} className="text-3xl" href="/construction">
+          Construction
         </Link>
         {/* <Link onClick={handleClick} className="text-3xl" href="/social">
           Social Media
