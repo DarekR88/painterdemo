@@ -21,8 +21,8 @@ const ImageCycle: React.FC = () => {
   }, []);
 
   return (
-    <div className="relative w-full h-full">
-      <div className="absolute inset-0 bg-black opacity-50 z-50"></div>
+    <div className="relative flex justify-center items-center w-full h-full">
+      <div className="absolute inset-0 bg-black opacity-50 z-40"></div>
       {images.map((image, index) => (
         <div
           key={index}
@@ -39,6 +39,11 @@ const ImageCycle: React.FC = () => {
           />
         </div>
       ))}
+
+      <div className='absolute z-50 max-w-[1060px]'>
+        <h1 className='text-5xl text-white'>Build your dreams</h1>
+        <p className='text-white text-2xl'>With Kurazawa Construction the project you'be been waiting for is right around the corner</p>
+      </div>
     </div>
   );
 };
