@@ -69,7 +69,7 @@ export function NavBar() {
           className="flex flex-col lg:flex-row lg:justify-center tracking-widest text-xl z-0 px-3"
         >
           <div className="">
-            <h1 className="text-5xl">
+            <h1 className="text-3xl lg:text-5xl">
               <span>K</span>URAZAWA
             </h1>
             <div className="flex flex-col">

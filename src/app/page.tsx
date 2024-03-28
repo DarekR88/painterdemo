@@ -5,16 +5,16 @@ import workingImg from "../../public/images/working.jpg";
 export default function Home() {
   return (
     <main className="">
-      <div className="relative lg:h-[500px] w-full mb-[75px]">
+      <div className="relative lg:h-[500px] h-[500px] w-full mb-[75px]">
         <ImageCycle />
       </div>
 
-      <div className="flex w-full lg:h-[400px]">
+      <div className="flex flex-col lg:flex-row w-full lg:h-[400px]">
         <div className="lg:w-1/2 overflow-hidden">
           <Image src={workingImg} alt="work" />
         </div>
         <div className="flex lg:w-1/2 items-center">
-          <p className="px-[40px]">
+          <p className="lg:px-[40px] px-3">
             At Kurazawa Construction, we take pride in our commitment to
             excellence. With a legacy rooted in family values and a dedication
             to quality craftsmanship, we ensure that every project, no matter
