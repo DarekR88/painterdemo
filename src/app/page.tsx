@@ -23,7 +23,7 @@ export default function Home() {
             expertise and dedication to exceeding client expectations. From
             large-scale renovations to minor repairs, we approach every job with
             the same level of professionalism and attention to detail. At
-            Kurazawa Construction, you're not just a client – you're a valued
+            Kurazawa Construction, you&#39;re not just a client, you&#39;re a valued
             member of our extended family. Trust us to bring your vision to life
             with integrity, precision, and a personal touch.
           </p>
