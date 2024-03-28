@@ -41,7 +41,7 @@ const ImageCycle: React.FC = () => {
       ))}
 
       <div className='absolute z-50 max-w-[1060px]'>
-        <h1 className='text-5xl text-white'>Build your dreams</h1>
+        <h1 className='text-5xl text-white'>We build your dreams</h1>
         <p className='text-white text-2xl'>With Kurazawa Construction the project you'be been waiting for is right around the corner</p>
       </div>
     </div>
